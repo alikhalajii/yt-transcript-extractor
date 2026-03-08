@@ -1,4 +1,11 @@
 """YouTube Transcript Extractor - Extract and save YouTube video transcriptions."""
 
-__version__ = "0.1.0"
+from importlib.metadata import PackageNotFoundError, version
+
+try:
+    __version__ = version("youtube-transcript-extractor")
+except PackageNotFoundError:
+    # Fallback for local source usage before installation.
+    __version__ = "0.1.0"
+
 __author__ = "ALI KHALAJI"

@@ -140,6 +140,10 @@ pre-commit install
 
 This runs `black --check`, `ruff check`, `mypy`, and `pytest` before each commit.
 
+## Contributing
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for development setup, local testing, and release procedures.
+
 ## Troubleshooting
 
 - If captions are disabled by the video owner, transcript extraction will fail.
